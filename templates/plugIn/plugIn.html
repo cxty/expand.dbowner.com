@@ -1,0 +1,36 @@
+{include file='header.html'}
+
+<script type="text/javascript" src="{$__PUBLIC__}/js/DB_plugIn.js" ></script>
+
+<div class="plugIn_box">
+	<div class="plugIn_t_left"><a class="btn" href="javascript:void(0);" onclick="javascript:plugIn.addPlugIn();">{$Lang.AddPlugIn}</a></div>
+	<div class="plugIn_t_right">
+		<div class="plugIn_list" id="plugIn_list">
+			{if $listInfo}
+				{foreach item=item from=$listInfo}
+					<div class="plugIn_info">
+						<a href="javascript:void(0);" onclick="javascript:plugIn.modifyPlugIn({$item.AppPlugInID})" class="img_list tiptip_plus" title="<div class='wb'><span class='fw_b'>{$Lang.PlugInState}</span>:{$item.pPlugInState}</div>"><img src-data="{$item.pIcoCode_128}" src="{$__PUBLIC__}/images/loading_128.gif"></a>
+						<div class="plugIn_state"><a href="javascript:void(0);" onclick="javascript:plugIn.modifyPlugIn({$item.AppPlugInID})" class="tiptip_plus">{$item.PlugInName}</a></div>
+						<div class="plugIn_exp">{if $item.pStatues == 2}<img src="{$__PUBLIC__}/images/wait_audit.png">{/if}</div>
+					</div>
+				{/foreach}
+			{/if}
+		</div>
+		<div class="showpage">{$showpage}</div>
+	</div>
+</div>
+
+<script language="javascript" type="text/javascript">
+var plugIn = new TplugIn();
+plugIn.JS_LANG = {$JS_LANG};
+//页面完全再入后初始化
+$(document).ready(function(){
+	plugIn.init();
+});
+//释放
+$(window).unload(function(){
+	plugIn = null;
+});
+</script>
+
+{include file='footer.html'}

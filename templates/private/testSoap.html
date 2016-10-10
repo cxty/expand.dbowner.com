@@ -1,0 +1,37 @@
+{include file='header_fancybox.html'}
+
+<script type="text/javascript" src="{$__PUBLIC__}/js/DB_soapTest.js" ></script>
+
+<div class="test_box">
+	<div class="soap_title">{$Lang.testSoap}</div>
+	<div class="soap_content">
+		<div class="soap_li h_35">
+			<div class="soap_li_ti">{$Lang.Method}</div>
+			<div class="soap_li_co">{$selectMethod}</div>
+		</div>
+		<div class="soap_li h_35">
+			<div class="soap_li_ti">{$Lang.MethodName}</div>
+			<div class="soap_li_co"><input type="input" id="funcName" size="135" class="input" /></div>
+		</div>
+		<div id="soap_list"></div>
+		<div class="soap_li_btn"><a class="btn" href="javascript:void(0);" onclick="javascript:soapTest.doSearch()">查询</a></div>
+		
+		<div id="soap_iframe"></div>
+	</div>
+</div>
+
+<script language="javascript" type="text/javascript">
+var soapTest = new TsoapTest();
+soapTest.JS_LANG = {$JS_LANG};
+soapTest.init();
+//页面完全再入后初始化
+$(document).ready(function(){
+	soapTest.init();
+});
+//释放
+$(window).unload(function(){
+	soapTest = null;
+});
+</script>
+
+{include file='footer_fancybox.html'}

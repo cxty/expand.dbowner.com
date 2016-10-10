@@ -1,0 +1,14 @@
+2013-01-07 16:04:20 | 124.115.2.34 | /index.php/robots.txt |robots.txt模块不存在
+2013-01-07 17:18:36 | 218.104.232.181 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-01-07 17:33:51 | 218.104.232.181 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  ORDER BY uUpdateTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'uUpdateTime' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-07 17:34:02 | 218.104.232.181 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  ORDER BY uUpdateTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'uUpdateTime' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-07 17:35:06 | 218.104.232.181 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  ORDER BY uUpdateTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'uUpdateTime' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>

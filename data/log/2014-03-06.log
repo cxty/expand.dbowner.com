@@ -1,0 +1,14 @@
+2014-03-06 18:32:39 | 220.181.158.109 | /index.php/user/reg/regajax.asp |user模块不存在
+2014-03-06 18:32:39 | 220.181.158.109 | /index.php/_database/qiye_free.asp |_database模块不存在
+2014-03-06 18:32:39 | 220.181.158.109 | /index.php/_database/_qiyedata.asp |_database模块不存在
+2014-03-06 18:34:30 | 220.181.158.109 | /index.php/server_sync.php |server_sync.php模块不存在
+2014-03-06 18:36:20 | 220.181.158.109 | /index.php/dealfunc/comment_js.php |dealfunc模块不存在
+2014-03-06 18:36:20 | 220.181.158.109 | /index.php/_data/index_JSRP.aspx |_data模块不存在
+2014-03-06 18:38:19 | 220.181.158.109 | /index.php/category/1) AND (SELECT 4037 FROM(SELECT COUNT(*),CONCAT(CHAR(58,100,114,108,58),(SELECT (CASE WHEN (4037=4037) THEN 1 ELSE 0 END)),CHAR(58,122,103,111,58),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a) AND (9909=9909 |category模块不存在
+2014-03-06 18:38:19 | 220.181.158.109 | /index.php/account/ajax/login_process/ |account模块不存在
+2014-03-06 18:42:17 | 220.181.158.109 | /index.php/upload/flow.php |upload模块不存在
+2014-03-06 18:44:08 | 220.181.158.109 | /index.php/utf8/api/uc_client/control/mail.php |utf8模块不存在
+2014-03-06 18:45:55 | 220.181.158.109 | /index.php/data/ |data模块不存在
+2014-03-06 18:45:55 | 220.181.158.109 | /index.php/manage/Config/BackupRestore.aspx |manage模块不存在
+2014-03-06 18:47:37 | 220.181.158.109 | /index.php/asord/asord_marc_record.php |asord模块不存在
+2014-03-06 18:47:37 | 220.181.158.109 | /index.php/admin.php |admin.php模块不存在

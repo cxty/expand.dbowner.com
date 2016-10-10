@@ -1,0 +1,7 @@
+2014-09-11 18:10:52 | 220.181.158.109 | /index.php/getpassword.php |getpassword.php模块不存在
+2014-09-11 18:12:42 | 220.181.158.109 | /index.php/api/uc/uc.php |ucuc.php操作方法在api模块中不存在
+2014-09-11 18:12:42 | 220.181.158.109 | /index.php/servlet/FileDownload |servlet模块不存在
+2014-09-11 18:12:42 | 220.181.158.109 | /index.php/servlet/FileDownload |servlet模块不存在
+2014-09-11 18:14:36 | 220.181.158.109 | /index.php/api/uc.php |uc.php操作方法在api模块中不存在
+2014-09-11 18:14:36 | 220.181.158.109 | /index.php/nicknamelogin.jsp |nicknamelogin.jsp模块不存在
+2014-09-11 18:14:36 | 220.181.158.109 | /index.php/jsearch/viewsnap.jsp |jsearch模块不存在

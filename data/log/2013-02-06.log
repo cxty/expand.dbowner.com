@@ -1,0 +1,8 @@
+2013-02-06 11:36:07 | 124.115.2.34 | /index.php/robots.txt |robots.txt模块不存在
+2013-02-06 15:13:58 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: select a.AppPlugInID,a.PlugInName,a.PlugInCode,a.PlugInTypeID,b.PlugInType,a.pIcoCode,a.pPlugInState,a.pInputState,a.pOutputState,a.pLevel,a.pStatues,a.pAppendTime,a.pUpdateTime from tbAppPlugInInfo as a left join tbPlugInTypeInfo as b on a.PlugInTypeID = b.PlugInTypeID  where a.pStatues = 0 and a.UserID = 'bVRtWWwxK2t2UUk9' order by pUpdateTime desc limit 0,10<br>
+						<b>错误详情</b>: Unknown column 'a.pPlugInState' in 'field list'<br>
+						<b>错误代码</b>:1054<br>
+2013-02-06 15:13:58 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-02-06 15:13:58 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-02-06 15:13:58 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在

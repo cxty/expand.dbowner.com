@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/phpmailer
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/phpmailer/class.phpmailer.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/phpmailer/class.smtp.php
+END

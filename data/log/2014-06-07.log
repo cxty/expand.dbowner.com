@@ -1,0 +1,30 @@
+2014-06-07 14:10:51 | 220.181.158.109 | /index.php/article/index/article/list/cid/1'||(SELECT 'ijx' FROM DUAL WHERE 1122=1122 AND 4557=UTL_INADDR.GET_HOST_ADDRESS((SELECT chr(99)||chr(102)||chr(114)||chr(101)||chr(101)||chr(114)  FROM dual)))||' |article模块不存在
+2014-06-07 14:10:51 | 220.181.158.109 | /index.php/jdwm/cgi/getpwd.cgi |jdwm模块不存在
+2014-06-07 14:10:59 | 220.181.158.109 | /index.php/public/jspdownload.jsp |public模块不存在
+2014-06-07 14:10:59 | 220.181.158.109 | /index.php/public/jspdownload.jsp |public模块不存在
+2014-06-07 14:10:59 | 220.181.158.109 | /index.php/cms/web/jspdownload.jsp |cms模块不存在
+2014-06-07 14:10:59 | 220.181.158.109 | /index.php/cms/web/jspdownload.jsp |cms模块不存在
+2014-06-07 14:11:00 | 220.181.158.109 | /index.php/cms/web/dimensionpic.jsp |cms模块不存在
+2014-06-07 14:11:01 | 220.181.158.109 | /index.php/Ajax_Handle/UploadAttachmentHandler.ashx |Ajax_Handle模块不存在
+2014-06-07 14:11:08 | 220.181.158.109 | /index.php/ws2004/public/editext/up/soundsave.asp |ws2004模块不存在
+2014-06-07 14:11:15 | 220.181.158.109 | /index.php/sm2005/public/AspUpload/upload.asp |sm2005模块不存在
+2014-06-07 14:11:21 | 220.181.158.109 | /index.php/sm2005/upload/12.asp |sm2005模块不存在
+2014-06-07 14:11:21 | 220.181.158.109 | /index.php/xyEmployee_checkLoginForUser.do |xyEmployee_checkLoginForUser.do模块不存在
+2014-06-07 14:11:21 | 220.181.158.109 | /index.php/opac/ajax_get_file.php |opac模块不存在
+2014-06-07 14:11:21 | 220.181.158.109 | /index.php/zplug/ajax_asyn_link.old.php |zplug模块不存在
+2014-06-07 14:11:22 | 220.181.158.109 | /index.php/phpsso_server/ |phpsso_server模块不存在
+2014-06-07 18:35:00 | 220.181.158.109 | /index.php/article/index/article/list/cid/1'||(SELECT 'ijx' FROM DUAL WHERE 1122=1122 AND 4557=UTL_INADDR.GET_HOST_ADDRESS((SELECT chr(99)||chr(102)||chr(114)||chr(101)||chr(101)||chr(114)  FROM dual)))||' |article模块不存在
+2014-06-07 18:35:00 | 220.181.158.109 | /index.php/jdwm/cgi/getpwd.cgi |jdwm模块不存在
+2014-06-07 18:35:07 | 220.181.158.109 | /index.php/public/jspdownload.jsp |public模块不存在
+2014-06-07 18:35:07 | 220.181.158.109 | /index.php/public/jspdownload.jsp |public模块不存在
+2014-06-07 18:35:07 | 220.181.158.109 | /index.php/cms/web/jspdownload.jsp |cms模块不存在
+2014-06-07 18:35:07 | 220.181.158.109 | /index.php/cms/web/jspdownload.jsp |cms模块不存在
+2014-06-07 18:35:07 | 220.181.158.109 | /index.php/cms/web/dimensionpic.jsp |cms模块不存在
+2014-06-07 18:35:08 | 220.181.158.109 | /index.php/Ajax_Handle/UploadAttachmentHandler.ashx |Ajax_Handle模块不存在
+2014-06-07 18:35:15 | 220.181.158.109 | /index.php/ws2004/public/editext/up/soundsave.asp |ws2004模块不存在
+2014-06-07 18:35:21 | 220.181.158.109 | /index.php/sm2005/public/AspUpload/upload.asp |sm2005模块不存在
+2014-06-07 18:35:28 | 220.181.158.109 | /index.php/sm2005/upload/12.asp |sm2005模块不存在
+2014-06-07 18:35:28 | 220.181.158.109 | /index.php/xyEmployee_checkLoginForUser.do |xyEmployee_checkLoginForUser.do模块不存在
+2014-06-07 18:35:28 | 220.181.158.109 | /index.php/opac/ajax_get_file.php |opac模块不存在
+2014-06-07 18:35:28 | 220.181.158.109 | /index.php/zplug/ajax_asyn_link.old.php |zplug模块不存在
+2014-06-07 18:35:28 | 220.181.158.109 | /index.php/phpsso_server/ |phpsso_server模块不存在

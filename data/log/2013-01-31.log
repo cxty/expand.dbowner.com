@@ -1,0 +1,7 @@
+2013-01-31 09:52:15 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-01-31 09:52:59 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-01-31 10:10:51 | 180.153.160.199 | /index.php/login/setLoginInfo |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Lost connection to MySQL server at 'reading initial communication packet', system error: 0<br>
+						<b>错误代码</b>:2013<br>
+2013-01-31 18:00:54 | 124.115.2.34 | /index.php/robots.txt |robots.txt模块不存在

@@ -1,0 +1,5 @@
+2014-06-24 20:59:54 | 220.181.158.109 | /index.php/install/install.php.lock |install模块不存在
+2014-06-24 20:59:55 | 220.181.158.109 | /index.php/web.config.file.aspx |web.config.file.aspx模块不存在
+2014-06-24 20:59:56 | 220.181.158.109 | /index.php/base/common/openfile.jsp |base模块不存在
+2014-06-24 21:00:52 | 220.181.158.109 | /index.php/jcms/m_5_9/downfile.jsp |jcms模块不存在
+2014-06-24 21:00:53 | 220.181.158.109 | /index.php/ratercp.php |ratercp.php模块不存在

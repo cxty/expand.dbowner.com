@@ -1,0 +1,86 @@
+2013-01-10 05:28:42 | 124.115.2.34 | /index.php/robots.txt |robots.txt模块不存在
+2013-01-10 10:33:58 | 180.153.214.176 | /index.php/plugIn/checkValue |checkValue?type=PlugInName&value=?��?����操作方法在plugIn模块中不存在
+2013-01-10 11:44:27 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:44:27 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:45:01 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:45:06 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:45:12 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:45:54 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:47:03 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:48:27 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 11:50:26 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 12:30:24 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbInviteCodeInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 12:30:30 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbInviteCodeInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 12:32:56 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbInviteCodeInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 12:33:29 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbInviteCodeInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 14:45:36 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: DELETE FROM `tbOauthPermInfo`  WHERE InviteCodeID in(1)<br>
+						<b>错误详情</b>: Unknown column 'InviteCodeID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 14:49:19 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: DELETE FROM `tbOauthPermInfo`  WHERE InviteCodeID in(1)<br>
+						<b>错误详情</b>: Unknown column 'InviteCodeID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 14:49:19 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: DELETE FROM `tbOauthPermInfo`  WHERE InviteCodeID in(1)<br>
+						<b>错误详情</b>: Unknown column 'InviteCodeID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 14:51:13 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: DELETE FROM `tbOauthPermInfo`  WHERE InviteCodeID in(1)<br>
+						<b>错误详情</b>: Unknown column 'InviteCodeID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 17:07:46 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: DELETE FROM `tbOauthPermInfo`  WHERE OauthPermID in(undefined)<br>
+						<b>错误详情</b>: Unknown column 'undefined' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 17:32:16 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbAppOauthPlugInInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 17:32:23 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbAppOauthPlugInInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-10 17:33:40 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbAppOauthPlugInInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>

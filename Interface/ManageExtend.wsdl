@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://expand.dbowner.com/ManageExtend/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ManageExtend" targetNamespace="http://expand.dbowner.com/ManageExtend/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://expand.dbowner.com/ManageExtend/">
+      <xsd:element name="Auth">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="user" type="xsd:string"></xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="AuthResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"></xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectUserInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectUserInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateUserInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateUserInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetUserInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetUserInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertUserInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertUserInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteUserInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteUserInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectPlugInTypeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectPlugInTypeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdatePlugInTypeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdatePlugInTypeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPlugInTypeInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPlugInTypeInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertPlugInTypeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertPlugInTypeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeletePlugInTypeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeletePlugInTypeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectAppPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectAppPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateAppPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateAppPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAppPlugInInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAppPlugInInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertAppPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertAppPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteAppPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteAppPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetOauthPermInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetOauthPermInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectInviteCodeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectInviteCodeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateInviteCodeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateInviteCodeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetInviteCodeInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetInviteCodeInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertInviteCodeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertInviteCodeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteInviteCodeInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteInviteCodeInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectAppOauthPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectAppOauthPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateAppOauthPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateAppOauthPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAppOauthPlugInInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAppOauthPlugInInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertAppOauthPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertAppOauthPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteAppOauthPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteAppOauthPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectUserOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectUserOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateUserOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateUserOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetUserOauthPermInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetUserOauthPermInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertUserOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertUserOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteUserOauthPermInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteUserOauthPermInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SelectAppSoapLogInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SelectAppSoapLogInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateAppSoapLogInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateAppSoapLogInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAppSoapLogInfoList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAppSoapLogInfoListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertAppSoapLogInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="InsertAppSoapLogInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteAppSoapLogInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DeleteAppSoapLogInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetAppPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAppPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetAuthPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetAuthPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetPlugInTypeSelect">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPlugInTypeSelectResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetPlugInTypeClass">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPlugInTypeClassResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetPlugInTypeClassMove">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPlugInTypeClassMoveResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetPlugInTypeClassOrder">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetPlugInTypeClassOrderResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetActiveInviteCode">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetActiveInviteCodeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="SetAppPlugInInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SetAppPlugInInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="GetUserExpandList">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="data" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetUserExpandListResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="return" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+    </xsd:schema>
+  </wsdl:types>
+
+  <wsdl:message name="SOAPAuth">
+    <wsdl:part name="Auth" element="tns:Auth"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectUserInfoRequest">
+    <wsdl:part element="tns:SelectUserInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectUserInfoResponse">
+    <wsdl:part element="tns:SelectUserInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateUserInfoRequest">
+    <wsdl:part element="tns:UpdateUserInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateUserInfoResponse">
+    <wsdl:part element="tns:UpdateUserInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoListRequest">
+    <wsdl:part element="tns:GetUserInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoListResponse">
+    <wsdl:part element="tns:GetUserInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertUserInfoRequest">
+    <wsdl:part element="tns:InsertUserInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertUserInfoResponse">
+    <wsdl:part element="tns:InsertUserInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteUserInfoRequest">
+    <wsdl:part element="tns:DeleteUserInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteUserInfoResponse">
+    <wsdl:part element="tns:DeleteUserInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectPlugInTypeInfoRequest">
+    <wsdl:part element="tns:SelectPlugInTypeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectPlugInTypeInfoResponse">
+    <wsdl:part element="tns:SelectPlugInTypeInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdatePlugInTypeInfoRequest">
+    <wsdl:part element="tns:UpdatePlugInTypeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdatePlugInTypeInfoResponse">
+    <wsdl:part element="tns:UpdatePlugInTypeInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetPlugInTypeInfoListRequest">
+    <wsdl:part element="tns:GetPlugInTypeInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetPlugInTypeInfoListResponse">
+    <wsdl:part element="tns:GetPlugInTypeInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertPlugInTypeInfoRequest">
+    <wsdl:part element="tns:InsertPlugInTypeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertPlugInTypeInfoResponse">
+    <wsdl:part element="tns:InsertPlugInTypeInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeletePlugInTypeInfoRequest">
+    <wsdl:part element="tns:DeletePlugInTypeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeletePlugInTypeInfoResponse">
+    <wsdl:part element="tns:DeletePlugInTypeInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectAppPlugInInfoRequest">
+    <wsdl:part element="tns:SelectAppPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectAppPlugInInfoResponse">
+    <wsdl:part element="tns:SelectAppPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateAppPlugInInfoRequest">
+    <wsdl:part element="tns:UpdateAppPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateAppPlugInInfoResponse">
+    <wsdl:part element="tns:UpdateAppPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAppPlugInInfoListRequest">
+    <wsdl:part element="tns:GetAppPlugInInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAppPlugInInfoListResponse">
+    <wsdl:part element="tns:GetAppPlugInInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertAppPlugInInfoRequest">
+    <wsdl:part element="tns:InsertAppPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertAppPlugInInfoResponse">
+    <wsdl:part element="tns:InsertAppPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteAppPlugInInfoRequest">
+    <wsdl:part element="tns:DeleteAppPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteAppPlugInInfoResponse">
+    <wsdl:part element="tns:DeleteAppPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectOauthPermInfoRequest">
+    <wsdl:part element="tns:SelectOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectOauthPermInfoResponse">
+    <wsdl:part element="tns:SelectOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateOauthPermInfoRequest">
+    <wsdl:part element="tns:UpdateOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateOauthPermInfoResponse">
+    <wsdl:part element="tns:UpdateOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetOauthPermInfoListRequest">
+    <wsdl:part element="tns:GetOauthPermInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetOauthPermInfoListResponse">
+    <wsdl:part element="tns:GetOauthPermInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertOauthPermInfoRequest">
+    <wsdl:part element="tns:InsertOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertOauthPermInfoResponse">
+    <wsdl:part element="tns:InsertOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteOauthPermInfoRequest">
+    <wsdl:part element="tns:DeleteOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteOauthPermInfoResponse">
+    <wsdl:part element="tns:DeleteOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectInviteCodeInfoRequest">
+    <wsdl:part element="tns:SelectInviteCodeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectInviteCodeInfoResponse">
+    <wsdl:part element="tns:SelectInviteCodeInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateInviteCodeInfoRequest">
+    <wsdl:part element="tns:UpdateInviteCodeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateInviteCodeInfoResponse">
+    <wsdl:part element="tns:UpdateInviteCodeInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetInviteCodeInfoListRequest">
+    <wsdl:part element="tns:GetInviteCodeInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetInviteCodeInfoListResponse">
+    <wsdl:part element="tns:GetInviteCodeInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertInviteCodeInfoRequest">
+    <wsdl:part element="tns:InsertInviteCodeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertInviteCodeInfoResponse">
+    <wsdl:part element="tns:InsertInviteCodeInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteInviteCodeInfoRequest">
+    <wsdl:part element="tns:DeleteInviteCodeInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteInviteCodeInfoResponse">
+    <wsdl:part element="tns:DeleteInviteCodeInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectAppOauthPlugInInfoRequest">
+    <wsdl:part element="tns:SelectAppOauthPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectAppOauthPlugInInfoResponse">
+    <wsdl:part element="tns:SelectAppOauthPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateAppOauthPlugInInfoRequest">
+    <wsdl:part element="tns:UpdateAppOauthPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateAppOauthPlugInInfoResponse">
+    <wsdl:part element="tns:UpdateAppOauthPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAppOauthPlugInInfoListRequest">
+    <wsdl:part element="tns:GetAppOauthPlugInInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAppOauthPlugInInfoListResponse">
+    <wsdl:part element="tns:GetAppOauthPlugInInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertAppOauthPlugInInfoRequest">
+    <wsdl:part element="tns:InsertAppOauthPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertAppOauthPlugInInfoResponse">
+    <wsdl:part element="tns:InsertAppOauthPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteAppOauthPlugInInfoRequest">
+    <wsdl:part element="tns:DeleteAppOauthPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteAppOauthPlugInInfoResponse">
+    <wsdl:part element="tns:DeleteAppOauthPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectUserOauthPermInfoRequest">
+    <wsdl:part element="tns:SelectUserOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectUserOauthPermInfoResponse">
+    <wsdl:part element="tns:SelectUserOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateUserOauthPermInfoRequest">
+    <wsdl:part element="tns:UpdateUserOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateUserOauthPermInfoResponse">
+    <wsdl:part element="tns:UpdateUserOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetUserOauthPermInfoListRequest">
+    <wsdl:part element="tns:GetUserOauthPermInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetUserOauthPermInfoListResponse">
+    <wsdl:part element="tns:GetUserOauthPermInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertUserOauthPermInfoRequest">
+    <wsdl:part element="tns:InsertUserOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertUserOauthPermInfoResponse">
+    <wsdl:part element="tns:InsertUserOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteUserOauthPermInfoRequest">
+    <wsdl:part element="tns:DeleteUserOauthPermInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteUserOauthPermInfoResponse">
+    <wsdl:part element="tns:DeleteUserOauthPermInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SelectAppSoapLogInfoRequest">
+    <wsdl:part element="tns:SelectAppSoapLogInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SelectAppSoapLogInfoResponse">
+    <wsdl:part element="tns:SelectAppSoapLogInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateAppSoapLogInfoRequest">
+    <wsdl:part element="tns:UpdateAppSoapLogInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="UpdateAppSoapLogInfoResponse">
+    <wsdl:part element="tns:UpdateAppSoapLogInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAppSoapLogInfoListRequest">
+    <wsdl:part element="tns:GetAppSoapLogInfoList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAppSoapLogInfoListResponse">
+    <wsdl:part element="tns:GetAppSoapLogInfoListResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertAppSoapLogInfoRequest">
+    <wsdl:part element="tns:InsertAppSoapLogInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="InsertAppSoapLogInfoResponse">
+    <wsdl:part element="tns:InsertAppSoapLogInfoResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteAppSoapLogInfoRequest">
+    <wsdl:part element="tns:DeleteAppSoapLogInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="DeleteAppSoapLogInfoResponse">
+    <wsdl:part element="tns:DeleteAppSoapLogInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetPlugInInfoRequest">
+    <wsdl:part element="tns:GetPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetPlugInInfoResponse">
+    <wsdl:part element="tns:GetPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetAppPlugInInfoRequest">
+    <wsdl:part element="tns:GetAppPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAppPlugInInfoResponse">
+    <wsdl:part element="tns:GetAppPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetAuthPlugInInfoRequest">
+    <wsdl:part element="tns:GetAuthPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetAuthPlugInInfoResponse">
+    <wsdl:part element="tns:GetAuthPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetPlugInTypeSelectRequest">
+    <wsdl:part element="tns:GetPlugInTypeSelect" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetPlugInTypeSelectResponse">
+    <wsdl:part element="tns:GetPlugInTypeSelectResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetPlugInTypeClassRequest">
+    <wsdl:part element="tns:GetPlugInTypeClass" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetPlugInTypeClassResponse">
+    <wsdl:part element="tns:GetPlugInTypeClassResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetPlugInTypeClassMoveRequest">
+    <wsdl:part element="tns:GetPlugInTypeClassMove" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetPlugInTypeClassMoveResponse">
+    <wsdl:part element="tns:GetPlugInTypeClassMoveResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetPlugInTypeClassOrderRequest">
+    <wsdl:part element="tns:GetPlugInTypeClassOrder" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetPlugInTypeClassOrderResponse">
+    <wsdl:part element="tns:GetPlugInTypeClassOrderResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetActiveInviteCodeRequest">
+    <wsdl:part element="tns:GetActiveInviteCode" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetActiveInviteCodeResponse">
+    <wsdl:part element="tns:GetActiveInviteCodeResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="SetAppPlugInInfoRequest">
+    <wsdl:part element="tns:SetAppPlugInInfo" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="SetAppPlugInInfoResponse">
+    <wsdl:part element="tns:SetAppPlugInInfoResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:message name="GetUserExpandListRequest">
+    <wsdl:part element="tns:GetUserExpandList" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="GetUserExpandListResponse">
+    <wsdl:part element="tns:GetUserExpandListResponse" name="parameters"/>
+  </wsdl:message>
+
+  <wsdl:portType name="ManageExtend">
+
+    <wsdl:operation name="SelectUserInfo">
+      <wsdl:input message="tns:SelectUserInfoRequest"/>
+      <wsdl:output message="tns:SelectUserInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserInfo">
+      <wsdl:input message="tns:UpdateUserInfoRequest"/>
+      <wsdl:output message="tns:UpdateUserInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoList">
+      <wsdl:input message="tns:GetUserInfoListRequest"/>
+      <wsdl:output message="tns:GetUserInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserInfo">
+      <wsdl:input message="tns:InsertUserInfoRequest"/>
+      <wsdl:output message="tns:InsertUserInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserInfo">
+      <wsdl:input message="tns:DeleteUserInfoRequest"/>
+      <wsdl:output message="tns:DeleteUserInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectPlugInTypeInfo">
+      <wsdl:input message="tns:SelectPlugInTypeInfoRequest"/>
+      <wsdl:output message="tns:SelectPlugInTypeInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePlugInTypeInfo">
+      <wsdl:input message="tns:UpdatePlugInTypeInfoRequest"/>
+      <wsdl:output message="tns:UpdatePlugInTypeInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlugInTypeInfoList">
+      <wsdl:input message="tns:GetPlugInTypeInfoListRequest"/>
+      <wsdl:output message="tns:GetPlugInTypeInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPlugInTypeInfo">
+      <wsdl:input message="tns:InsertPlugInTypeInfoRequest"/>
+      <wsdl:output message="tns:InsertPlugInTypeInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlugInTypeInfo">
+      <wsdl:input message="tns:DeletePlugInTypeInfoRequest"/>
+      <wsdl:output message="tns:DeletePlugInTypeInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectAppPlugInInfo">
+      <wsdl:input message="tns:SelectAppPlugInInfoRequest"/>
+      <wsdl:output message="tns:SelectAppPlugInInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAppPlugInInfo">
+      <wsdl:input message="tns:UpdateAppPlugInInfoRequest"/>
+      <wsdl:output message="tns:UpdateAppPlugInInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppPlugInInfoList">
+      <wsdl:input message="tns:GetAppPlugInInfoListRequest"/>
+      <wsdl:output message="tns:GetAppPlugInInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAppPlugInInfo">
+      <wsdl:input message="tns:InsertAppPlugInInfoRequest"/>
+      <wsdl:output message="tns:InsertAppPlugInInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAppPlugInInfo">
+      <wsdl:input message="tns:DeleteAppPlugInInfoRequest"/>
+      <wsdl:output message="tns:DeleteAppPlugInInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectOauthPermInfo">
+      <wsdl:input message="tns:SelectOauthPermInfoRequest"/>
+      <wsdl:output message="tns:SelectOauthPermInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOauthPermInfo">
+      <wsdl:input message="tns:UpdateOauthPermInfoRequest"/>
+      <wsdl:output message="tns:UpdateOauthPermInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetOauthPermInfoList">
+      <wsdl:input message="tns:GetOauthPermInfoListRequest"/>
+      <wsdl:output message="tns:GetOauthPermInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOauthPermInfo">
+      <wsdl:input message="tns:InsertOauthPermInfoRequest"/>
+      <wsdl:output message="tns:InsertOauthPermInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOauthPermInfo">
+      <wsdl:input message="tns:DeleteOauthPermInfoRequest"/>
+      <wsdl:output message="tns:DeleteOauthPermInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectInviteCodeInfo">
+      <wsdl:input message="tns:SelectInviteCodeInfoRequest"/>
+      <wsdl:output message="tns:SelectInviteCodeInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInviteCodeInfo">
+      <wsdl:input message="tns:UpdateInviteCodeInfoRequest"/>
+      <wsdl:output message="tns:UpdateInviteCodeInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetInviteCodeInfoList">
+      <wsdl:input message="tns:GetInviteCodeInfoListRequest"/>
+      <wsdl:output message="tns:GetInviteCodeInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInviteCodeInfo">
+      <wsdl:input message="tns:InsertInviteCodeInfoRequest"/>
+      <wsdl:output message="tns:InsertInviteCodeInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInviteCodeInfo">
+      <wsdl:input message="tns:DeleteInviteCodeInfoRequest"/>
+      <wsdl:output message="tns:DeleteInviteCodeInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectAppOauthPlugInInfo">
+      <wsdl:input message="tns:SelectAppOauthPlugInInfoRequest"/>
+      <wsdl:output message="tns:SelectAppOauthPlugInInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAppOauthPlugInInfo">
+      <wsdl:input message="tns:UpdateAppOauthPlugInInfoRequest"/>
+      <wsdl:output message="tns:UpdateAppOauthPlugInInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppOauthPlugInInfoList">
+      <wsdl:input message="tns:GetAppOauthPlugInInfoListRequest"/>
+      <wsdl:output message="tns:GetAppOauthPlugInInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAppOauthPlugInInfo">
+      <wsdl:input message="tns:InsertAppOauthPlugInInfoRequest"/>
+      <wsdl:output message="tns:InsertAppOauthPlugInInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAppOauthPlugInInfo">
+      <wsdl:input message="tns:DeleteAppOauthPlugInInfoRequest"/>
+      <wsdl:output message="tns:DeleteAppOauthPlugInInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectUserOauthPermInfo">
+      <wsdl:input message="tns:SelectUserOauthPermInfoRequest"/>
+      <wsdl:output message="tns:SelectUserOauthPermInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserOauthPermInfo">
+      <wsdl:input message="tns:UpdateUserOauthPermInfoRequest"/>
+      <wsdl:output message="tns:UpdateUserOauthPermInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserOauthPermInfoList">
+      <wsdl:input message="tns:GetUserOauthPermInfoListRequest"/>
+      <wsdl:output message="tns:GetUserOauthPermInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserOauthPermInfo">
+      <wsdl:input message="tns:InsertUserOauthPermInfoRequest"/>
+      <wsdl:output message="tns:InsertUserOauthPermInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserOauthPermInfo">
+      <wsdl:input message="tns:DeleteUserOauthPermInfoRequest"/>
+      <wsdl:output message="tns:DeleteUserOauthPermInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectAppSoapLogInfo">
+      <wsdl:input message="tns:SelectAppSoapLogInfoRequest"/>
+      <wsdl:output message="tns:SelectAppSoapLogInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAppSoapLogInfo">
+      <wsdl:input message="tns:UpdateAppSoapLogInfoRequest"/>
+      <wsdl:output message="tns:UpdateAppSoapLogInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppSoapLogInfoList">
+      <wsdl:input message="tns:GetAppSoapLogInfoListRequest"/>
+      <wsdl:output message="tns:GetAppSoapLogInfoListResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAppSoapLogInfo">
+      <wsdl:input message="tns:InsertAppSoapLogInfoRequest"/>
+      <wsdl:output message="tns:InsertAppSoapLogInfoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAppSoapLogInfo">
+      <wsdl:input message="tns:DeleteAppSoapLogInfoRequest"/>
+      <wsdl:output message="tns:DeleteAppSoapLogInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInInfo">
+      <wsdl:input message="tns:GetPlugInInfoRequest"/>
+      <wsdl:output message="tns:GetPlugInInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetAppPlugInInfo">
+      <wsdl:input message="tns:GetAppPlugInInfoRequest"/>
+      <wsdl:output message="tns:GetAppPlugInInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetAuthPlugInInfo">
+      <wsdl:input message="tns:GetAuthPlugInInfoRequest"/>
+      <wsdl:output message="tns:GetAuthPlugInInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeSelect">
+      <wsdl:input message="tns:GetPlugInTypeSelectRequest"/>
+      <wsdl:output message="tns:GetPlugInTypeSelectResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeClass">
+      <wsdl:input message="tns:GetPlugInTypeClassRequest"/>
+      <wsdl:output message="tns:GetPlugInTypeClassResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeClassMove">
+      <wsdl:input message="tns:GetPlugInTypeClassMoveRequest"/>
+      <wsdl:output message="tns:GetPlugInTypeClassMoveResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeClassOrder">
+      <wsdl:input message="tns:GetPlugInTypeClassOrderRequest"/>
+      <wsdl:output message="tns:GetPlugInTypeClassOrderResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetActiveInviteCode">
+      <wsdl:input message="tns:GetActiveInviteCodeRequest"/>
+      <wsdl:output message="tns:GetActiveInviteCodeResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="SetAppPlugInInfo">
+      <wsdl:input message="tns:SetAppPlugInInfoRequest"/>
+      <wsdl:output message="tns:SetAppPlugInInfoResponse"/>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetUserExpandList">
+      <wsdl:input message="tns:GetUserExpandListRequest"/>
+      <wsdl:output message="tns:GetUserExpandListResponse"/>
+    </wsdl:operation>
+
+  </wsdl:portType>
+
+  <wsdl:binding name="ManageExtendSOAP" type="tns:ManageExtend">
+    <soap:binding style="document"
+      transport="http://schemas.xmlsoap.org/soap/http" />
+
+    <wsdl:operation name="SelectUserInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectUserInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdateUserInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetUserInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertUserInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeleteUserInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectPlugInTypeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectPlugInTypeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePlugInTypeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdatePlugInTypeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlugInTypeInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetPlugInTypeInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPlugInTypeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertPlugInTypeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePlugInTypeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeletePlugInTypeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectAppPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectAppPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAppPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdateAppPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppPlugInInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetAppPlugInInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAppPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertAppPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAppPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeleteAppPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdateOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOauthPermInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetOauthPermInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeleteOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectInviteCodeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectInviteCodeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInviteCodeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdateInviteCodeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInviteCodeInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetInviteCodeInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInviteCodeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertInviteCodeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInviteCodeInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeleteInviteCodeInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectAppOauthPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectAppOauthPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAppOauthPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdateAppOauthPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppOauthPlugInInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetAppOauthPlugInInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAppOauthPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertAppOauthPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAppOauthPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeleteAppOauthPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectUserOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectUserOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdateUserOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserOauthPermInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetUserOauthPermInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertUserOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUserOauthPermInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeleteUserOauthPermInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SelectAppSoapLogInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SelectAppSoapLogInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAppSoapLogInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/UpdateAppSoapLogInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAppSoapLogInfoList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetAppSoapLogInfoList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertAppSoapLogInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/InsertAppSoapLogInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAppSoapLogInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/DeleteAppSoapLogInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetAppPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetAppPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetAuthPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetAuthPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeSelect">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetPlugInTypeSelect" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeClass">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetPlugInTypeClass" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeClassMove">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetPlugInTypeClassMove" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetPlugInTypeClassOrder">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetPlugInTypeClassOrder" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetActiveInviteCode">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetActiveInviteCode" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="SetAppPlugInInfo">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/SetAppPlugInInfo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+    <wsdl:operation name="GetUserExpandList">
+      <soap:operation
+        soapAction="http://expand.dbowner.com/ManageExtend/GetUserExpandList" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:SOAPAuth" part="Auth"
+          use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+
+  </wsdl:binding>
+
+  <wsdl:service name="ManageExtend">
+    <wsdl:port binding="tns:ManageExtendSOAP" name="ManageExtendSOAP">
+      <soap:address location="http://expand.dbowner.com/soap/extendSoap?wsdl"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

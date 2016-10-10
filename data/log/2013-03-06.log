@@ -1,0 +1,32 @@
+2013-03-06 10:42:10 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-03-06 10:42:11 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-03-06 10:42:11 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-03-06 11:00:34 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Access denied for user 'root'@'localhost' (using password: NO)<br>
+						<b>错误代码</b>:1045<br>
+2013-03-06 11:00:45 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Access denied for user 'root'@'localhost' (using password: NO)<br>
+						<b>错误代码</b>:1045<br>
+2013-03-06 11:00:46 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Access denied for user 'root'@'localhost' (using password: NO)<br>
+						<b>错误代码</b>:1045<br>
+2013-03-06 11:01:15 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Access denied for user 'root'@'localhost' (using password: NO)<br>
+						<b>错误代码</b>:1045<br>
+2013-03-06 11:01:16 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Access denied for user 'root'@'localhost' (using password: NO)<br>
+						<b>错误代码</b>:1045<br>
+2013-03-06 11:01:18 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Access denied for user 'root'@'localhost' (using password: NO)<br>
+						<b>错误代码</b>:1045<br>
+2013-03-06 11:01:27 | 192.168.0.1 | /index.php/plugIn |	<b>出错</b>: 无法连接到数据库服务器<br>
+						<b>SQL</b>: <br>
+						<b>错误详情</b>: Access denied for user 'root'@'localhost' (using password: NO)<br>
+						<b>错误代码</b>:1045<br>
+2013-03-06 23:32:52 | 124.115.2.34 | /index.php/robots.txt |robots.txt模块不存在

@@ -1,0 +1,22 @@
+
+<div class="footer_box">
+	<div class="footer_inner">
+    	<div class="copyright">Copyright {date('Y')} Yannyo Inc.,  </div>
+        <div class="menu"><span id="lang_box"></span>&nbsp;<a href="#">{$Lang.Log}</a>&nbsp;|&nbsp;<a href="#">{$Lang.Workground}</a>&nbsp;|&nbsp;<a href="#">{$Lang.Privacy}</a>&nbsp;|&nbsp;<a href="#">{$Lang.ConnactUs}</a></div>
+    </div>
+</div>
+<script language="javascript" type="text/javascript" src="{$__PUBLIC__}/js/common.js"></script>
+<script language="javascript" type="text/javascript">
+var Common = new TCommon();
+//页面完全再入后初始化
+$(document).ready(function(){
+	Common.init();
+});
+//释放
+$(window).unload(function(){
+	Common = null;
+});
+</script>
+
+</body>
+</html>

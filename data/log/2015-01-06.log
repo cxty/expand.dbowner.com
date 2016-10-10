@@ -1,0 +1,24 @@
+2015-01-06 15:09:43 | 218.104.232.181 | /index.php/verify/s |s操作方法在verify模块中不存在
+2015-01-06 15:20:33 | 218.104.232.181 | /index.php/api/plugin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbUniformInterfaceLogInfo` SET `uilRespondParams`='{"state":true,"msg":"ok","data":"select a.AppPlugInID,a.PlugInCode,a.pUniqueCode,a.PlugInTypeID,b.AppInfoID,a.pUrl from tbAppPlugInInfo as a left join tbAppOauthPlugInInfo b on a.AppPlugInID = b.AppPlugInID\nwhere  b.AppInfoID = 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528833'  WHERE  `UniformInterfaceLogID`='899' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528833'  ' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2015-01-06 15:21:27 | 218.104.232.181 | /index.php/api/plugin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbUniformInterfaceLogInfo` SET `uilRespondParams`='{"state":true,"msg":"ok","data":"select a.AppPlugInID,a.PlugInCode,a.pUniqueCode,a.PlugInTypeID,b.AppInfoID,a.pUrl from tbAppPlugInInfo as a left join tbAppOauthPlugInInfo b on a.AppPlugInID = b.AppPlugInID\nwhere  b.AppInfoID = 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528887'  WHERE  `UniformInterfaceLogID`='901' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528887'  ' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2015-01-06 15:21:53 | 218.104.232.181 | /index.php/api/plugin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbUniformInterfaceLogInfo` SET `uilRespondParams`='{"state":true,"msg":"ok","data":"select a.AppPlugInID,a.PlugInCode,a.pUniqueCode,a.PlugInTypeID,b.AppInfoID,a.pUrl from tbAppPlugInInfo as a left join tbAppOauthPlugInInfo b on a.AppPlugInID = b.AppPlugInID\nwhere  b.AppInfoID = 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528913'  WHERE  `UniformInterfaceLogID`='902' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528913'  ' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2015-01-06 15:23:02 | 218.104.232.181 | /index.php/api/plugin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbUniformInterfaceLogInfo` SET `uilRespondParams`='{"state":true,"msg":"ok","data":"select a.AppPlugInID,a.PlugInCode,a.pUniqueCode,a.PlugInTypeID,b.AppInfoID,a.pUrl from tbAppPlugInInfo as a left join tbAppOauthPlugInInfo b on a.AppPlugInID = b.AppPlugInID\nwhere  b.AppInfoID = 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528982'  WHERE  `UniformInterfaceLogID`='904' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420528982'  ' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2015-01-06 15:37:14 | 218.104.232.181 | /index.php/favicon.ico |favicon.ico模块不存在
+2015-01-06 15:37:14 | 218.104.232.181 | /index.php/favicon.ico |favicon.ico模块不存在
+2015-01-06 15:42:45 | 218.104.232.181 | /index.php/api/plugin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbUniformInterfaceLogInfo` SET `uilRespondParams`='{"state":true,"msg":"ok","data":"select a.AppPlugInID,a.PlugInCode,a.pUniqueCode,a.PlugInTypeID,b.AppInfoID,a.pUrl from tbAppPlugInInfo as a left join tbAppOauthPlugInInfo b on a.AppPlugInID = b.AppPlugInID\nwhere  b.AppInfoID = 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420530165'  WHERE  `UniformInterfaceLogID`='924' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'app45' and a.pUniqueCode = '92882f59d0f49820'"}',`uilRespondTime`='1420530165'  ' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2015-01-06 15:51:59 | 101.226.167.208 | /index.php/robots.txt |robots.txt模块不存在

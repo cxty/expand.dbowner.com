@@ -1,0 +1,26 @@
+2013-12-10 10:57:25 | 119.147.146.189 | /index.php/plugin |plugin模块不存在
+2013-12-10 11:27:28 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-12-10 13:15:31 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-12-10 13:15:31 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-12-10 13:15:31 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-12-10 13:29:04 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT count(*) FROM `tbAppPlugInInfo`  WHERE  PlugInTypeID = 3and pStatues=0<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pStatues=0' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2013-12-10 13:29:06 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT count(*) FROM `tbAppPlugInInfo`  WHERE  PlugInTypeID = 3and pStatues=0<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pStatues=0' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2013-12-10 13:29:07 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT count(*) FROM `tbAppPlugInInfo`  WHERE  PlugInTypeID = 2and pStatues=0<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pStatues=0' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2013-12-10 13:29:08 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT count(*) FROM `tbAppPlugInInfo`  WHERE  PlugInTypeID = 3and pStatues=0<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pStatues=0' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2013-12-10 13:29:09 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT count(*) FROM `tbAppPlugInInfo`  WHERE  PlugInTypeID = 1and pStatues=0<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'pStatues=0' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2013-12-10 17:27:49 | 220.181.158.109 | /index.php/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz |res模块不存在

@@ -1,0 +1,11 @@
+2014-09-10 18:40:11 | 220.181.158.109 | /index.php/weixin/index.php |dex.php模块不存在
+2014-09-10 18:41:23 | 220.181.158.109 | /index.php/getpassword.php |getpassword.php模块不存在
+2014-09-10 18:42:45 | 220.181.158.109 | /index.php/api/uc/uc.php |ucuc.php操作方法在api模块中不存在
+2014-09-10 18:44:10 | 220.181.158.109 | /index.php/servlet/FileDownload |servlet模块不存在
+2014-09-10 18:44:10 | 220.181.158.109 | /index.php/servlet/FileDownload |servlet模块不存在
+2014-09-10 18:44:10 | 220.181.158.109 | /index.php/plus/outside.php |ide.php模块不存在
+2014-09-10 18:46:53 | 220.181.158.109 | /index.php/errpage/404.html |interface模块不存在
+2014-09-10 18:46:53 | 220.181.158.109 | /index.php/api/uc.php |uc.php操作方法在api模块中不存在
+2014-09-10 18:46:53 | 220.181.158.109 | /index.php/nicknamelogin.jsp |nicknamelogin.jsp模块不存在
+2014-09-10 18:46:53 | 220.181.158.109 | /index.php/lm/front/reg.jsp |lm模块不存在
+2014-09-10 18:48:19 | 220.181.158.109 | /index.php/jsearch/viewsnap.jsp |jsearch模块不存在

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$title}</title>
+{include file='link.html'}
+
+</head>
+  
+<body>
+<div class="header_box">
+	<div class="header_inner">
+		<div class="h_img"><a href="/" ><img src="{$__PUBLIC__}/images/ico_2.png"  height="35" /></a></div>
+		<div class="h_left">
+             | <a href="/plugIn">{$Lang.AppExtend}</a>
+        </div>
+        <div class="h_right">
+            <script src="http://auth.dbowner.com/provitejs/userbox?lang=zh" language="javascript" type="text/javascript"></script>
+        </div>
+	</div>
+</div>
+
+<script language="javascript" type="text/javascript">
+var headerJs = new TheaderJs();
+headerJs.JS_LANG = {$JS_LANG};
+//页面完全再入后初始化
+$(document).ready(function(){
+	headerJs.init();
+});
+//释放
+$(window).unload(function(){
+	headerJs = null;
+});
+</script>

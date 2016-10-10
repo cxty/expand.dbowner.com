@@ -1,0 +1,4 @@
+2013-12-19 16:24:38 | 192.168.0.195 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbAppPlugInInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>

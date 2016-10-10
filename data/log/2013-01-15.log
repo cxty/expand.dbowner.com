@@ -1,0 +1,9 @@
+2013-01-15 09:33:51 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-01-15 11:23:29 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbUserOauthPermInfo` SET `uPermission`='{"AppPlugInID":".Array['Expand']['AppPlugIn']['OauthLoginCode'].","Attach":"[\"1\",\"2\",\"3\"]"}',`uUpdateTime`='1358220209'  WHERE  `AppInfoID`='80022003' AND  `UserID`='ajQ3VGU2NVRtOGh4WHlhWWZtSXhGQT09' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Expand']['AppPlugIn']['OauthLoginCode'].","Attach":"[\"1\",\"2\",\"3\"]"}',`uUpd' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2013-01-15 16:37:39 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbInviteCodeInfo` SET   WHERE inviteCode='7e91a70c033956117707eb669'<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE inviteCode='7e91a70c033956117707eb669'' at line 1<br>
+						<b>错误代码</b>:1064<br>

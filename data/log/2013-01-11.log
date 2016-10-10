@@ -1,0 +1,30 @@
+2013-01-11 09:18:25 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbAppOauthPlugInInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-11 09:22:56 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbAppOauthPlugInInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-11 09:29:48 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  WHERE  `AppPlugInID`='2' <br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-11 09:39:54 | 192.168.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2013-01-11 10:12:51 | 222.73.77.55 | /index.php/plugIn/checkValue |checkValue?type=PlugInName&value=?��?����操作方法在plugIn模块中不存在
+2013-01-11 10:46:49 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbUserOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-11 10:46:55 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbUserOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-11 10:47:19 | 192.168.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbUserOauthPermInfo`  ORDER BY pPID asc,pOrder asc,pAppendTime desc LIMIT 0,10<br>
+						<b>错误详情</b>: Unknown column 'pPID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-11 11:07:29 | 101.226.89.70 | /index.php/plugIn/checkValue |checkValue?type=PlugInName&value=?��?����操作方法在plugIn模块中不存在
+2013-01-11 11:35:21 | 180.153.201.213 | /index.php/plugIn/checkValue |checkValue?type=PlugInName&value=?��?����操作方法在plugIn模块中不存在
+2013-01-11 11:54:14 | 124.115.2.34 | /index.php/robots.txt |robots.txt模块不存在
+2013-01-11 11:55:05 | 180.153.201.213 | /index.php/plugIn/checkValue |checkValue?type=PlugInName&value=?��?����操作方法在plugIn模块中不存在

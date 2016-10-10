@@ -1,0 +1,72 @@
+{include file='header2.html'}
+
+<script type="text/javascript" src="{$__PUBLIC__}/js/plusList.js" ></script>
+
+<div class="flo_nav_box">
+	<div class="flo_top_bar"></div>
+	<ul>
+		<li {if $view == 'list'}class="flo_selected"{/if}><span><a href="/admin/appPlus?view=list">{$Lang.AppPlusList}</a></span></li>
+		<li {if $view == 'add'}class="flo_selected"{/if}><span><a href="/admin/appPlus?view=add">{$Lang.AddPlus}</a></span></li>
+		{if $view == 'modify'}<li class="flo_selected"><span>{$Lang.modifyAppPlus}</span></li>{/if}	
+	</ul>
+</div>
+
+<div class="gb_box">
+	{if $view == 'list'}	
+		<div class="gb_list">
+			<div class="gb_list_title">
+				<dl>{$Lang.AppPlusName}</dl>
+				<dl>{$Lang.AppPlusState}</dl>
+				<dt>{$Lang.Time}</dt>
+				<dt>{$Lang.Mandle}</dt>
+			</div>
+			<ul>
+				{if $plusList}
+					{foreach item=item key=key from=$plusList}
+						<li id="list_{$key}">
+							<dl>{$item.PlusCode}</dl>
+							<dl>{$item.pState}</dl>
+							<dt>{$item.pAppendTime|date_format:'%Y-%m-%d'}</dt>
+							<dt>
+								<a href="/admin/appPlus?view=modify&AppPlusID={$item.AppPlusID}">{$Lang.Modify}</a>&nbsp;|
+								<a href="javascript:plusList.delAPlus({$key},'{$item.AppPlusID}')">{$Lang.Delete}</a>
+							</dt>											
+						</li>
+					{/foreach}
+				{/if}
+			</ul>
+			<div class="showpage">{$showpage}</div>
+		</div>	
+	{elseif $view == 'add'}
+		<div class="gb_add">
+			<ul>
+				<li><dl>{$Lang.AppPlusName}</dl><dt><input type="text" class="input" size="60" id="PlusCode" /></dt></li>
+				<li><dl>{$Lang.AppPlusState}</dl><dt><input type="text" class="input" size="60" id="pState" /></dt></li>
+				<li><dd><a class="btn" href="javascript:plusList.addAPlus()">{$Lang.AddButton}</a></dd></li>
+			</ul>
+		</div>
+	{elseif $view == 'modify'}
+		<div class="gb_add">
+			<ul>
+				<li><dl>{$Lang.AppPlusName}</dl><dt><input type="text" class="input" size="60" id="PlusCode" value="{$plusList.0.PlusCode}" /></dt></li>
+				<li><dl>{$Lang.AppPlusState}</dl><dt><input type="text" class="input" size="60" id="pState" value="{$plusList.0.pState}" /></dt></li>
+				<li><dd><a class="btn" href="javascript:plusList.updateAPlus({$plusList.0.AppPlusID})">{$Lang.Modify}</a></dd></li>
+			</ul>
+		</div>
+	{/if}
+</div>
+
+<script language="javascript" type="text/javascript">
+var plusList = new TplusList();
+plusList.JS_LANG = {$JS_LANG};
+//页面完全再入后初始化
+$(document).ready(function(){
+	plusList.init();
+});
+//释放
+$(window).unload(function(){
+	plusList = null;
+});
+</script>
+
+{include file='footer2.html'}

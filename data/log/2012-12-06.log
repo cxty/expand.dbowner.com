@@ -1,0 +1,9 @@
+2012-12-06 09:16:33 | 192.168.0.112 | /index.php/favicon.ico |favicon.ico模块不存在
+2012-12-06 10:03:47 | 192.168.0.112 | /index.php/admin/appPerm |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT count(*) FROM ``  WHERE  `gState`='0' <br>
+						<b>错误详情</b>: Incorrect table name ''<br>
+						<b>错误代码</b>:1103<br>
+2012-12-06 10:05:12 | 192.168.0.112 | /index.php/admin/appPerm |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT count(*) FROM `tbAppPermInfo`  WHERE  `gState`='0' <br>
+						<b>错误详情</b>: Unknown column 'gState' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>

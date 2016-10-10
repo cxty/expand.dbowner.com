@@ -1,0 +1,12 @@
+2013-01-08 15:09:24 | 218.104.232.181 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: DELETE FROM `tbPlugInTypeInfo`  WHERE UID in(13)<br>
+						<b>错误详情</b>: Unknown column 'UID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-08 15:11:22 | 218.104.232.181 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: DELETE FROM `tbPlugInTypeInfo`  WHERE UID in(13)<br>
+						<b>错误详情</b>: Unknown column 'UID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-08 17:19:58 | 218.104.232.181 | /index.php/plugin/addPlugIn |plugin模块不存在
+2013-01-08 17:20:07 | 218.104.232.181 | /index.php/plugin/addPlugIn |plugin模块不存在
+2013-01-08 17:20:19 | 218.104.232.181 | /index.php/plugin/addPlugIn |plugin模块不存在
+2013-01-08 18:08:37 | 112.64.235.90 | /index.php/plugin/addPlugIn |plugin模块不存在

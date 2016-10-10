@@ -1,0 +1,9 @@
+2014-10-13 14:57:10 | 220.181.158.109 | /index.php/global_admin.ini |global_admin.ini模块不存在
+2014-10-13 14:57:11 | 220.181.158.109 | /index.php/nagios/nagios/side.php |nagios模块不存在
+2014-10-13 14:57:11 | 220.181.158.109 | /index.php/.bash_history |.bash_history模块不存在
+2014-10-13 14:57:11 | 220.181.158.109 | /index.php/$ |$模块不存在
+2014-10-13 17:12:01 | 220.181.158.109 | /index.php/global_admin.ini |global_admin.ini模块不存在
+2014-10-13 17:12:01 | 220.181.158.109 | /index.php/nagios/ |nagios模块不存在
+2014-10-13 17:12:01 | 220.181.158.109 | /index.php/cacti |cacti模块不存在
+2014-10-13 17:12:01 | 220.181.158.109 | /index.php/.bash_history |.bash_history模块不存在
+2014-10-13 17:12:02 | 220.181.158.109 | /index.php/$ |$模块不存在

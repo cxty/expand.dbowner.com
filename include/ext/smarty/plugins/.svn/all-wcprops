@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins
+END
+modifier.escape.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.escape.php
+END
+modifiercompiler.count_words.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.count_words.php
+END
+shared.escape_special_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/shared.escape_special_chars.php
+END
+modifier.spacify.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.spacify.php
+END
+function.mailto.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.mailto.php
+END
+modifiercompiler.count_sentences.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.count_sentences.php
+END
+modifiercompiler.default.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.default.php
+END
+modifiercompiler.lower.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.lower.php
+END
+modifiercompiler.wordwrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.wordwrap.php
+END
+function.cycle.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.cycle.php
+END
+function.html_table.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.html_table.php
+END
+modifier.date_format.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.date_format.php
+END
+modifier.debug_print_var.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.debug_print_var.php
+END
+modifiercompiler.count_characters.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.count_characters.php
+END
+function.html_select_date.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.html_select_date.php
+END
+modifiercompiler.noprint.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.noprint.php
+END
+function.html_radios.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.html_radios.php
+END
+block.php.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/block.php.php
+END
+modifiercompiler.strip_tags.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.strip_tags.php
+END
+function.html_image.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.html_image.php
+END
+modifier.replace.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.replace.php
+END
+modifier.truncate.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.truncate.php
+END
+function.math.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.math.php
+END
+modifiercompiler.cat.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.cat.php
+END
+function.html_options.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.html_options.php
+END
+modifiercompiler.strip.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.strip.php
+END
+modifier.capitalize.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.capitalize.php
+END
+function.fetch.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.fetch.php
+END
+modifiercompiler.indent.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.indent.php
+END
+block.textformat.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/block.textformat.php
+END
+modifier.regex_replace.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifier.regex_replace.php
+END
+shared.mb_str_replace.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/shared.mb_str_replace.php
+END
+function.counter.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.counter.php
+END
+variablefilter.htmlspecialchars.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/variablefilter.htmlspecialchars.php
+END
+modifiercompiler.upper.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.upper.php
+END
+modifiercompiler.count_paragraphs.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.count_paragraphs.php
+END
+modifiercompiler.string_format.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/modifiercompiler.string_format.php
+END
+shared.make_timestamp.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/shared.make_timestamp.php
+END
+function.html_checkboxes.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.html_checkboxes.php
+END
+function.html_select_time.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/function.html_select_time.php
+END
+outputfilter.trimwhitespace.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DBOwner_Exp/!svn/ver/1/include/ext/smarty/plugins/outputfilter.trimwhitespace.php
+END

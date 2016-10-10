@@ -1,0 +1,38 @@
+{include file='header.html'}
+
+<script type="text/javascript" src="{$__PUBLIC__}/js/throwMsg.js"></script>
+
+<div class="content_box">
+    <div class="content_box_c">
+         <div class="content">
+          	<div class="msg_box">
+          		<div class="msg_rmd">{$Lang.WarmRemind}：</div>
+          		<div class="msg_cont">
+          			{$msgArr.msg}
+          			{if $msgArr.urlTurn }
+	          			<div class="time_out" id="time_out"></div>          			
+          			{/if}
+          			<input type="hidden" id="urlTurn" value="{$msgArr.urlTurn}" />
+          		</div>
+			   	<div class="msg_app">
+		   			{$Lang.YouChoose}&nbsp;<a href="{$msgArr.retry}" title="{$Lang.Retry}">{$Lang.Retry}</a>&nbsp;<a href="javascript:history.back()" title="{$Lang.Back}">{$Lang.Back}</a>&nbsp;{$Lang.Or}&nbsp;<a href="{$msgArr.url}" title="{$Lang.BackIndex}">{$Lang.BackIndex}</a>
+			   	</div>
+			</div>
+         </div>
+    </div>
+</div>
+           
+<script type="text/javascript">
+var throwMsg = new TthrowMsg();
+throwMsg.JS_LANG = {$JS_LANG};
+
+//页面完全再入后初始化
+$(document).ready(function(){
+	throwMsg.init();
+});
+//释放
+$(window).unload(function(){
+	throwMsg = null;
+});
+</script>
+{include file='footer.html'}

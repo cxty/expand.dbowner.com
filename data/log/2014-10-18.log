@@ -1,0 +1,3 @@
+2014-10-18 14:35:16 | 220.181.158.109 | /index.php/dealfunc/comment_js.php |dealfunc模块不存在
+2014-10-18 14:35:19 | 220.181.158.109 | /index.php/category/1) AND (SELECT 4037 FROM(SELECT COUNT(*),CONCAT(CHAR(58,100,114,108,58),(SELECT (CASE WHEN (4037=4037) THEN 1 ELSE 0 END)),CHAR(58,122,103,111,58),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a) AND (9909=9909 |category模块不存在
+2014-10-18 14:35:20 | 220.181.158.109 | /index.php/data/ |data模块不存在

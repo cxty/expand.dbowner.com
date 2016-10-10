@@ -1,0 +1,82 @@
+2012-12-29 09:20:23 | 127.0.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2012-12-29 09:20:23 | 127.0.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2012-12-29 10:43:33 | 127.0.0.1 | /index.php/private/testSoap？ |testSoap%EF%BC%9F操作方法在private模块中不存在
+2012-12-29 11:30:56 | 127.0.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2012-12-29 11:32:22 | 127.0.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2012-12-29 11:32:44 | 127.0.0.1 | /index.php/favicon.ico |favicon.ico模块不存在
+2012-12-29 14:15:39 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  ORDER BY AppPlugInID asc<br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'order clause'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:15:53 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  WHERE AppPlugInID = 1<br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:15:54 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  WHERE AppPlugInID = 1<br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:15:55 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  WHERE AppPlugInID = 1<br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:16:46 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  WHERE AppPlugInID = 1<br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:16:46 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT * FROM `tbPlugInTypeInfo`  WHERE AppPlugInID = 1<br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:19:18 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET   WHERE  `PlugInTypeID`='' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  `PlugInTypeID`=''' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2012-12-29 14:19:20 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET   WHERE  `PlugInTypeID`='' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  `PlugInTypeID`=''' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2012-12-29 14:20:42 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET   WHERE  `PlugInTypeID`='' <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  `PlugInTypeID`=''' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2012-12-29 14:26:33 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET PlugInType = cccc  WHERE PlugInTypeID = 8<br>
+						<b>错误详情</b>: Unknown column 'cccc' in 'field list'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:26:34 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET PlugInType = cccc  WHERE PlugInTypeID = 8<br>
+						<b>错误详情</b>: Unknown column 'cccc' in 'field list'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:27:54 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET PlugInType = cccc  WHERE PlugInTypeID = 8<br>
+						<b>错误详情</b>: Unknown column 'cccc' in 'field list'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:27:55 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET PlugInType = cccc  WHERE PlugInTypeID = 8<br>
+						<b>错误详情</b>: Unknown column 'cccc' in 'field list'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:27:55 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET PlugInType = cccc  WHERE PlugInTypeID = 8<br>
+						<b>错误详情</b>: Unknown column 'cccc' in 'field list'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:27:56 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET PlugInType = cccc  WHERE PlugInTypeID = 8<br>
+						<b>错误详情</b>: Unknown column 'cccc' in 'field list'<br>
+						<b>错误代码</b>:1054<br>
+2012-12-29 14:53:04 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET   WHERE PlugInTypeID = 7<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE PlugInTypeID = 7' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2012-12-29 15:00:14 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: INSERT INTO `tbPlugInTypeInfo`  (`PlugInType`,`pDepth`,`pPID`,`pFID`,`pOrder`,`pStatues`,`pAppendTime`) VALUES (' '测试'','1','0','9','4','0','1356764414') <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xE6\xB5\x8B\xE8\xAF\x95'','1','0','9','4','0','1356764414')' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2012-12-29 15:01:14 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: INSERT INTO `tbPlugInTypeInfo`  (`PlugInType`,`pDepth`,`pPID`,`pFID`,`pOrder`,`pStatues`,`pAppendTime`) VALUES (' '测试'','1','0','9','4','0','1356764474') <br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\xE6\xB5\x8B\xE8\xAF\x95'','1','0','9','4','0','1356764474')' at line 1<br>
+						<b>错误代码</b>:1064<br>
+2012-12-29 15:03:25 | 127.0.0.1 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: UPDATE `tbPlugInTypeInfo` SET   WHERE PlugInTypeID = 12<br>
+						<b>错误详情</b>: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE PlugInTypeID = 12' at line 1<br>
+						<b>错误代码</b>:1064<br>

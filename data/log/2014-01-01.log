@@ -1,0 +1,5 @@
+2014-01-01 19:28:17 | 192.168.0.195 | /index.php/shop.php |shop.php模块不存在
+2014-01-01 19:28:17 | 192.168.0.195 | /index.php/wp-includes/registration-functions.php |wp-includes模块不存在
+2014-01-01 19:28:17 | 192.168.0.195 | /index.php/wp-includes/registration.php |wp-includes模块不存在
+2014-01-01 19:28:17 | 192.168.0.195 | /index.php/phpMyAdmin/show_config_errors.php |phpMyAdmin模块不存在
+2014-01-01 19:28:17 | 192.168.0.195 | /index.php/phpMyAdmin/error.php |phpMyAdmin模块不存在

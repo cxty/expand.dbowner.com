@@ -1,0 +1,10 @@
+2014-03-03 19:37:04 | 220.181.158.109 | /index.php/web/common/getfile.jsp |web模块不存在
+2014-03-03 19:37:04 | 220.181.158.109 | /index.php/msgChat/download.jsp |msgChat模块不存在
+2014-03-03 19:37:04 | 220.181.158.109 | /index.php/admin.php |admin.php模块不存在
+2014-03-03 19:38:57 | 220.181.158.109 | /index.php/errpage/404.html |interface模块不存在
+2014-03-03 19:38:57 | 220.181.158.109 | /index.php/emlib4/system/datasource/selectrecordset.aspx |emlib4模块不存在
+2014-03-03 19:42:47 | 220.181.158.109 | /index.php/API/GetPageHtml.aspx |API模块不存在
+2014-03-03 19:42:47 | 220.181.158.109 | /index.php/manage/Shop/profile/LmUserManage.aspx |manage模块不存在
+2014-03-03 19:42:47 | 220.181.158.109 | /index.php/DataBase/ |DataBase模块不存在
+2014-03-03 19:42:47 | 220.181.158.109 | /index.php/install/step4.aspx |install模块不存在
+2014-03-03 19:42:48 | 220.181.158.109 | /index.php/manage/WAP/Other/AddDalen.aspx |manage模块不存在

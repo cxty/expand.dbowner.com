@@ -1,0 +1,85 @@
+{include file='header2.html'}
+
+<script type="text/javascript" src="{$__PUBLIC__}/js/permList.js" ></script>
+
+<div class="flo_nav_box">
+	<div class="flo_top_bar"></div>
+	<ul>
+		<li {if $view == 'list'}class="flo_selected"{/if}><span><a href="/admin/appPerm?view=list">{$Lang.AppPermList}</a></span></li>
+		<li {if $view == 'add'}class="flo_selected"{/if}><span><a href="/admin/appPerm?view=add">{$Lang.AddPerm}</a></span></li>
+		{if $view == 'modify'}<li class="flo_selected"><span>{$Lang.ModifyAppPerm}</span></li>{/if}	
+	</ul>
+</div>
+
+<div class="gb_box">
+	{if $view == 'list'}	
+		<div class="gb_list">
+			<div class="gb_list_title">
+				<dl>{$Lang.AppPermName}</dl>
+				<dl>{$Lang.AppPermState}</dl>
+				<dt>{$Lang.Time}</dt>
+				<dt>{$Lang.Mandle}</dt>
+				<dt>{$Lang.AppDelete}</dt>
+				<dt>{$Lang.AppWrite}</dt>
+				<dt>{$Lang.AppRead}</dt>			
+			</div>
+			<ul>
+				{if $permList}
+					{foreach item=item key=key from=$permList}
+						<li id="list_{$key}">
+							<dl>{$item.PermCode}</dl>
+							<dl>{$item.pState}</dl>
+							<dt>{$item.pAppendTime|date_format:'%Y-%m-%d'}</dt>
+							<dt>
+								<a href="/admin/appPerm?view=modify&AppPermID={$item.AppPermID}">{$Lang.Modify}</a>&nbsp;|
+								<a href="javascript:permList.delAPerm({$key},'{$item.AppPermID}')">{$Lang.Delete}</a>
+							</dt>						
+							<dt>{if $item.pDelete == 1}{$Lang.Yes}{else}{$Lang.No}{/if}</dt>
+							<dt>{if $item.pWrite == 1}{$Lang.Yes}{else}{$Lang.No}{/if}</dt>
+							<dt>{if $item.pRead == 1}{$Lang.Yes}{else}{$Lang.No}{/if}</dt>
+							
+						</li>
+					{/foreach}
+				{/if}
+			</ul>
+			<div class="showpage">{$showpage}</div>
+		</div>	
+	{elseif $view == 'add'}
+		<div class="gb_add">
+			<ul>
+				<li><dl>{$Lang.AppPermName}</dl><dt><input type="text" class="input" size="60" id="PermCode" /></dt></li>
+				<li><dl>{$Lang.AppPermState}</dl><dt><input type="text" class="input" size="60" id="pState" /></dt></li>
+				<li><dl>{$Lang.AppRead}</dl><dt>{$pRead}</dt></li>
+				<li><dl>{$Lang.AppWrite}</dl><dt>{$pWrite}</dt></li>
+				<li><dl>{$Lang.AppDelete}</dl><dt>{$pDelete}</dt></li>
+				<li><dd><a class="btn" href="javascript:permList.addPerm()">{$Lang.AddButton}</a></dd></li>
+			</ul>
+		</div>
+	{elseif $view == 'modify'}
+		<div class="gb_add">
+			<ul>
+				<li><dl>{$Lang.AppPermName}</dl><dt><input type="text" class="input" size="60" id="PermCode" value="{$permList.0.PermCode}" /></dt></li>
+				<li><dl>{$Lang.AppPermState}</dl><dt><input type="text" class="input" size="60" id="pState" value="{$permList.0.pState}" /></dt></li>
+				<li><dl>{$Lang.AppRead}</dl><dt>{$pRead}</dt></li>
+				<li><dl>{$Lang.AppWrite}</dl><dt>{$pWrite}</dt></li>
+				<li><dl>{$Lang.AppDelete}</dl><dt>{$pDelete}</dt></li>
+				<li><dd><a class="btn" href="javascript:permList.updateAPerm({$permList.0.AppPermID})">{$Lang.Modify}</a></dd></li>
+			</ul>
+		</div>
+	{/if}
+</div>
+
+<script language="javascript" type="text/javascript">
+var permList = new TpermList();
+permList.JS_LANG = {$JS_LANG};
+//页面完全再入后初始化
+$(document).ready(function(){
+	permList.init();
+});
+//释放
+$(window).unload(function(){
+	permList = null;
+});
+</script>
+
+{include file='footer2.html'}

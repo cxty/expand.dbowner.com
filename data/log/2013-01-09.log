@@ -1,0 +1,8 @@
+2013-01-09 17:28:53 | 218.104.232.181 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT PlugInType FROM `tbPlugInTypeInfo`  WHERE  `PlugInTypeID`='2' AND  `AppPlugInID`='1' <br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>
+2013-01-09 17:29:02 | 218.104.232.181 | /index.php/soap/extendSoap |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT PlugInType FROM `tbPlugInTypeInfo`  WHERE  `PlugInTypeID`='2' AND  `AppPlugInID`='1' <br>
+						<b>错误详情</b>: Unknown column 'AppPlugInID' in 'where clause'<br>
+						<b>错误代码</b>:1054<br>

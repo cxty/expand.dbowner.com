@@ -1,0 +1,6 @@
+2013-11-19 16:54:28 | 220.181.158.109 | /index.php/api/js.php |js.php操作方法在api模块中不存在
+2013-11-19 19:46:10 | 220.181.158.109 | /index.php/phpsso_server/api.php |phpsso_server模块不存在
+2013-11-19 19:47:45 | 220.181.158.109 | /index.php/hwweb/asord/asord_marc_record.php |hwweb模块不存在
+2013-11-19 19:48:31 | 220.181.158.109 | /index.php/asord/asord_marc_record.php |asord模块不存在
+2013-11-19 19:49:12 | 220.181.158.109 | /index.php/misc.php |misc.php模块不存在
+2013-11-19 19:50:40 | 220.181.158.109 | /index.php/msgChat/download.jsp |msgChat模块不存在

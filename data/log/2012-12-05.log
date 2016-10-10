@@ -1,0 +1,22 @@
+2012-12-05 14:03:09 | 192.168.0.112 | /index.php/favicon.ico |favicon.ico模块不存在
+2012-12-05 15:52:18 | 192.168.0.112 | /index.php/login/checkLogin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT UserID FROM `tbUserInfo`  WHERE  `uName`='' AND  `uPWD`='d41d8cd98f00b204e9800998ecf8427e' <br>
+						<b>错误详情</b>: Table 'dbowner_wiki_db.tbuserinfo' doesn't exist<br>
+						<b>错误代码</b>:1146<br>
+2012-12-05 15:53:23 | 192.168.0.112 | /index.php/login/checkLogin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT UserID FROM `tbUserInfo`  WHERE  `uName`='' AND  `uPWD`='d41d8cd98f00b204e9800998ecf8427e' <br>
+						<b>错误详情</b>: Table 'dbowner_wiki_db.tbuserinfo' doesn't exist<br>
+						<b>错误代码</b>:1146<br>
+2012-12-05 15:53:38 | 192.168.0.112 | /index.php/login/checkLogin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT UserID FROM `tbUserInfo`  WHERE  `uName`='' AND  `uPWD`='e10adc3949ba59abbe56e057f20f883e' <br>
+						<b>错误详情</b>: Table 'dbowner_wiki_db.tbuserinfo' doesn't exist<br>
+						<b>错误代码</b>:1146<br>
+2012-12-05 15:53:50 | 192.168.0.112 | /index.php/login/checkLogin |	<b>出错</b>: MySQL Query Error<br>
+						<b>SQL</b>: SELECT UserID FROM `tbUserInfo`  WHERE  `uName`='admin' AND  `uPWD`='e10adc3949ba59abbe56e057f20f883e' <br>
+						<b>错误详情</b>: Table 'dbowner_wiki_db.tbuserinfo' doesn't exist<br>
+						<b>错误代码</b>:1146<br>
+2012-12-05 16:35:28 | 192.168.0.112 | /index.php/admin/group |group操作方法在admin模块中不存在
+2012-12-05 16:40:48 | 192.168.0.112 | /index.php/admin/group |group操作方法在admin模块中不存在
+2012-12-05 16:46:06 | 192.168.0.112 | /index.php/admin/group |group操作方法在admin模块中不存在
+2012-12-05 16:46:09 | 192.168.0.112 | /index.php/admin/group |group操作方法在admin模块中不存在
+2012-12-05 17:04:07 | 192.168.0.112 | /index.php/admin/user |user操作方法在admin模块中不存在

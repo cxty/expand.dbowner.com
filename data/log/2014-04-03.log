@@ -1,0 +1,16 @@
+2014-04-03 15:02:19 | 220.181.158.109 | /index.php/file/MyDownLoad.ashx |MyDownLoad.ashx操作方法在file模块中不存在
+2014-04-03 15:02:19 | 220.181.158.109 | /index.php/file/PackagDownload.ashx |PackagDownload.ashx操作方法在file模块中不存在
+2014-04-03 15:02:19 | 220.181.158.109 | /index.php/FileDownloadServlet |FileDownloadServlet模块不存在
+2014-04-03 15:02:19 | 220.181.158.109 | /index.php/setup/setup1.jsp |setup模块不存在
+2014-04-03 15:02:19 | 220.181.158.109 | /index.php/examlist/id-12,pid-104,key-'and(char(106)=0)or'1'='.aspx |examlist模块不存在
+2014-04-03 15:02:19 | 220.181.158.109 | /index.php/file/EmailDownload.ashx |EmailDownload.ashx操作方法在file模块中不存在
+2014-04-03 15:02:19 | 220.181.158.109 | /index.php/file/UDFDownLoad.ashx |UDFDownLoad.ashx操作方法在file模块中不存在
+2014-04-03 15:02:20 | 220.181.158.109 | /index.php/file/DownLoad.ashx |DownLoad.ashx操作方法在file模块中不存在
+2014-04-03 15:02:20 | 220.181.158.109 | /index.php/file/FileUpload.asmx/UploadFileBase64 |FileUpload.asmxUploadFileBase64操作方法在file模块中不存在
+2014-04-03 15:02:20 | 220.181.158.109 | /index.php/file/FileUpload.asmx/CopyFile |FileUpload.asmxCopyFile操作方法在file模块中不存在
+2014-04-03 15:02:20 | 220.181.158.109 | /index.php/download.jsp |download.jsp模块不存在
+2014-04-03 15:02:20 | .1.1.1', 220.181.158.109 | /index.php/mx_form/order_save.php |mx_form模块不存在
+2014-04-03 15:08:20 | 220.181.158.109 | /index.php/member.php |member.php模块不存在
+2014-04-03 15:08:20 | 220.181.158.109 | /index.php/apas/portal/tableDownload/download.jsp |apas模块不存在
+2014-04-03 15:08:20 | 220.181.158.109 | /index.php/jvideo/down.jsp |jvideo模块不存在
+2014-04-03 15:08:20 | 220.181.158.109 | /index.php/jiep/down.jsp |jiep模块不存在

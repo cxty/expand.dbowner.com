@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","华文细黑","STHeiti","MingLiu";
+	font-size:14px;
+	margin: 0;
+	padding: 0;
+	color: #4c4c4c;
+}
+
+.remind_wrap{width:100%;}
+.remind_wrap .remind_box{width:980px;text-align:center;margin:100px auto;}

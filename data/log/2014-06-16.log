@@ -1,0 +1,6 @@
+2014-06-16 12:52:32 | 220.181.158.109 | /index.php/member.php |member.php模块不存在
+2014-06-16 12:52:54 | 220.181.158.109 | /index.php/house/ProcManage/WebHouse/HousePic.aspx |house模块不存在
+2014-06-16 12:52:54 | 220.181.158.109 | /index.php/_controls/upfile/UpFile_Main_Down.aspx |_controls模块不存在
+2014-06-16 12:53:16 | 220.181.158.109 | /index.php/zlxz/down.aspx |zlxz模块不存在
+2014-06-16 12:53:16 | 220.181.158.109 | /index.php/xyzhxt/showpage/fjxz.jsp |xyzhxt模块不存在
+2014-06-16 12:53:16 | 220.181.158.109 | /index.php/opacOpenurl/getOpenUrlByBookId/-1 AND 1122=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(99)||CHR(102)||CHR(114)||CHR(101)||CHR(101)||CHR(114)||CHR(58)||(SELECT (CASE WHEN (1122=1122) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(106)||CHR(120)||CHR(58)||CHR(62))) FROM DUAL) |opacOpenurl模块不存在
